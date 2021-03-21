@@ -28,6 +28,8 @@ export interface IRaag extends mongoose.Document {
   thaat: any;
   aaroh: Array<ISwar>;
   avroh: Array<ISwar>;
+  pakad: Array<ISwar>;
+  swaras: Array<ISwar>;
   vaadi: ISwar;
   samvaadi: ISwar;
 }

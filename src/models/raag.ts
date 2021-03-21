@@ -13,6 +13,8 @@ export const schema = new Schema(
     thaat: { type: Schema.Types.ObjectId, ref: "Thaat" },
     aaroh: [{ type: SwarSchema }],
     avroh: [{ type: SwarSchema }],
+    pakad: [{ type: SwarSchema }],
+    swaras: [{ type: SwarSchema }],
     vaadi: { type: SwarSchema },
     samvaadi: { type: SwarSchema },
 

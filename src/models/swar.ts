@@ -1,9 +1,7 @@
 import shortid from "shortid";
-import mongoose, { Document, Model, Schema } from "mongoose";
+import mongoose, { Model, Schema } from "mongoose";
 import mongooseIntl from "mongoose-intl";
 import { ISwar } from "../common/types/interfaces";
-
-
 
 export const schema = new Schema(
   {
